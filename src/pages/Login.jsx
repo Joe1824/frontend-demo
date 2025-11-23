@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { userExists } from "../utils/storage";
 
-const YOUR_NFTAUTH_URL = "http://localhost:5174";
-const YOUR_DEMOAPP_URL = "http://localhost:5173";
+const YOUR_NFTAUTH_URL = `${import.meta.env.VITE_NFTAUTH_URL}`;
+const YOUR_DEMOAPP_URL = `${import.meta.env.VITE_DEMOAPP_URL}`;
 
 const Login = () => {
   const [isChecking, setIsChecking] = useState(false);
