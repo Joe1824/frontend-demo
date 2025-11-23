@@ -38,7 +38,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          NFTauth Demo
+          Web3 Demo App
         </motion.h1>
 
         <motion.p

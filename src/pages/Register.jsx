@@ -29,7 +29,7 @@ const Register = () => {
     if (error === "duplicate") {
       setNotification({
         type: "error",
-        message: "You already have a soulbound identity. Login instead.",
+        message: "You already have registered. Login instead.",
       });
 
       setIsChecking(false);
@@ -87,8 +87,8 @@ const Register = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            Create your soulbound identity with NFTauth.  
-            You'll complete biometric and Aadhaar verification securely.
+            Sign up using your soulbound identity. You'll be securely
+            authenticated through NFTauth.
           </motion.p>
 
           {/* Notification */}

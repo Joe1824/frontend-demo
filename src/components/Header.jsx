@@ -34,7 +34,7 @@ const Header = () => {
             </motion.div>
             <div>
               <span className="text-2xl font-bold bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-700 bg-clip-text text-transparent group-hover:from-purple-600 group-hover:via-indigo-600 group-hover:to-purple-700 transition-all duration-300">
-                NFTauth
+                Web3
               </span>
               <div className="text-xs text-indigo-500/70 font-medium">
                 Demo App

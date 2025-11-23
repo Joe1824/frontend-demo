@@ -31,7 +31,7 @@ const Footer = () => {
                 />
               </svg>
             </div>
-            <span className="text-indigo-600 font-semibold">NFTauth</span>
+            <span className="text-indigo-600 font-semibold">Web3</span>
           </motion.div>
           <motion.p
             className="text-indigo-600/80 font-medium text-sm"
@@ -47,7 +47,7 @@ const Footer = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.8 }}
           >
-            Built with React, Vite & Tailwind CSS
+           
           </motion.p>
         </div>
       </div>
